@@ -38,20 +38,21 @@
 ## О проделанной работе
 **Рассмотренные датасеты:**
 1. С целевой переменной *bad* - файл **credit_bad.ipynb**
-2. С целевой переменной *approved* - файл **credit_approved.ipynb** <br/>
+2. С целевой переменной *approved* - файл **credit_approved.ipynb**
+
 **Классификаторы:**
 1. KNN-Classifier
 2. Decision Tree Classifier
 3. Random Forest Classifier
 4. Gradient Boosting Classifier
 5. XGBoost Classifier
-<br/>
+
 **Метрики:**
 1. Euclidean
 2. Minkowski
 3. Chebyshev
 4. Cosine
-<br/>
+
 **Оценки качества:**
 1. Accuracy
 2. Precision
@@ -61,11 +62,11 @@
 ## Основные выводы
 1. Все модели построились качественными. Лучший результат на тестовой выборке дали модели бустинга: Gradient Boosting Classifier, XGBoost Classifier. 
 2. Наиболее значимыми параметрами (для обоих аутпутов) оказались:
-    1. *cred_sum_debt_all_all* - сумма задолженности по всем кредитам
-    2. *cred_day_overdue_all_sum_all* - cуммарное количество дней просрочки текущих активных кредитов
+    - *cred_sum_debt_all_all* - сумма задолженности по всем кредитам
+    - *cred_day_overdue_all_sum_all* - cуммарное количество дней просрочки текущих активных кредитов
 3. Наиболее незначимыми параметрами оказались:
-    1. *work_code* - профессия
-    2. *cred_max_overdue_max_3lm* - максимальная сумма просроченной задолженности, по кредитам взятым за последние 3 месяца
-    3. *region* - регион подачи заявки
-    4. *month_income* - доход
+    - *work_code* - профессия
+    - *cred_max_overdue_max_3lm* - максимальная сумма просроченной задолженности, по кредитам взятым за последние 3 месяца
+    - *region* - регион подачи заявки
+    - *month_income* - доход
 
